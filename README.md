@@ -1,2 +1,1 @@
-# RippleAccountant
-Testing/Learning Ripple API building various forms and iterations of an efficient "accountant".
+This is an accountant project with iterations and advancements to test and learn the Ripple protocol and API.

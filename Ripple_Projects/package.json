@@ -1,0 +1,18 @@
+{
+  "name": "Ripple_Projects",
+  "version": "0.0.0",
+  "description": "",
+  "main": "rip_acc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0",
+    "lodash": "^3.3.1",
+    "ripple-lib": "^0.12.0",
+    "unirest": "^0.4.0",
+    "webworker-threads": "^0.5.5"
+  }
+}
