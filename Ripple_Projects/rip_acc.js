@@ -24,7 +24,7 @@ var remote = new ripple_lib({
 var tasks = 1;
 
 // Utlizing worker thread to handle large data set computationally without
-// losing effeciency and taking advantage of CPU corse and evented node.js.
+// losing effeciency and taking advantage of CPU and evented node.js.
 var total = new Worker(function(){
     function accountant(trust_lines){
         var totalSoFar = 0;
@@ -41,7 +41,7 @@ var total = new Worker(function(){
     };
 });
 
-// Queue in charge of parsing account informationa nd initiating worker above.
+// Queue in charge of parsing account information and initiating worker above.
 var q = async.queue(function(account_id, callback){
     remote.connect(function(){
         // Options for account_info.
@@ -64,7 +64,6 @@ var q = async.queue(function(account_id, callback){
                 account: account_id,
                 ledger: ledger_index,
                 limit: 500
-                //Do I need a marker????
             };
 
             remote.requestAccountLines(options, function(err, response){
