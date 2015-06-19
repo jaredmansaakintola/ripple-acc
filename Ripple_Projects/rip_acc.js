@@ -1,5 +1,3 @@
-// 9 hours (4 hours Fri and 3 hours Sat and Sun 1 hour and 1 hour testing Mon)
-//
 var ripple_lib = require('ripple-lib').Remote;
 var Worker = require('webworker-threads').Worker;
 
