@@ -4,6 +4,7 @@ This is an accountant project with iterations and advancements to test and learn
 
 #TODO:
 Build UI for the applicationa nd extend functionality with other aspects of ripple API
+
 Make it more like a personal accountant with updates and emails using sendgrid and text using twilio.
 
 #Install 
